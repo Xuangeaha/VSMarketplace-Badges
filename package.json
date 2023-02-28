@@ -1,0 +1,50 @@
+{
+  "name": "vsmarketplace-badges",
+  "publisher": "XuangeAha",
+  "displayName": "VSMarketplace Badges",
+  "description": "Version, installs and rating badges for Visual Studio Marketplace.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "icon": "logo.png",
+  "author": {
+    "name": "XuangeAha"
+  },
+  "homepage": "https://github.com/Xuangeaha/Just-Enough-Git",
+  "repository": {
+    "url": "https://github.com/Xuangeaha/Just-Enough-Git"
+  },
+  "bugs": {
+    "url": "https://github.com/Xuangeaha/Just-Enough-Git/issues"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Azure",
+    "Data Science",
+    "Debuggers",
+    "Education",
+    "Formatters",
+    "Keymaps",
+    "Language Packs",
+    "Linters",
+    "Machine Learning",
+    "Notebooks",
+    "Programming Languages",
+    "SCM Providers",
+    "Snippets",
+    "Testing",
+    "Themes",
+    "Visualization",
+    "Extension Packs",
+    "Other"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
