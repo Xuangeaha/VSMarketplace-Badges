@@ -2,19 +2,19 @@
   "name": "vsmarketplace-badges",
   "publisher": "XuangeAha",
   "displayName": "VSMarketplace Badges",
-  "description": "Version, installs and rating badges for Visual Studio Marketplace.",
+  "description": "Add version, installs and rating badges for VSMarketplace extensions easily to your HTML pages.",
   "version": "0.0.1",
   "license": "MIT",
   "icon": "logo.png",
   "author": {
     "name": "XuangeAha"
   },
-  "homepage": "https://github.com/Xuangeaha/Just-Enough-Git",
+  "homepage": "https://github.com/Xuangeaha/VSMarketplace-Badges",
   "repository": {
-    "url": "https://github.com/Xuangeaha/Just-Enough-Git"
+    "url": "https://github.com/Xuangeaha/VSMarketplace-Badges"
   },
   "bugs": {
-    "url": "https://github.com/Xuangeaha/Just-Enough-Git/issues"
+    "url": "https://github.com/Xuangeaha/VSMarketplace-Badges/issues"
   },
   "engines": {
     "vscode": "^1.75.0"
