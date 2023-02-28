@@ -18,4 +18,22 @@ Add version, installs and rating badges for VSMarketplace extensions easily to y
 
 **Copyright (c) 2023 XuangeAha/轩哥啊哈OvO**
 
+# How To Use 使用方法
+
+1. Type `badges` in the file of supported languages above.  在所支持语言文件中键入 `badges`。
+
+2. Select the badge you want to insert and press `Tab`.  选择你想插入的徽章后按下 `Tab`。
+
+3. The badge will automatically be added to the file.  徽章将自动加入文件中。
+
+4. Type in your publisher name and entension name in the format of `publishername.entensionname`.  以 `publishername.entensionname` 的格式键入发布者名和扩展名。
+
+5. Press `Tab` and finish.  按下 `Tab` 后完成。
+
+# Language Supports 语言支持
+
+## HTML
+
+---
+
 **Enjoy!**
