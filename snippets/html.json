@@ -1,5 +1,5 @@
 {
-    "Version": {
+    "VSBadges Version": {
         "prefix": "badges-ver",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
@@ -8,7 +8,7 @@
         ],
         "description": "VSBadges Version"
       },
-      "Version Short": {
+      "VSBadges Version Short": {
         "prefix": "badges-ver-s",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
@@ -17,7 +17,7 @@
         ],
         "description": "VSBadges Version Short"
       },
-      "Installs": {
+      "VSBadges Installs": {
         "prefix": "badges-instl",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
@@ -26,7 +26,7 @@
         ],
         "description": "VSBadges Installs"
       },
-      "Installs Short": {
+      "VSBadges Installs Short": {
         "prefix": "badges-instl-s",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
@@ -35,7 +35,7 @@
         ],
         "description": "VSBadges Installs Short"
       },
-      "Downloads": {
+      "VSBadges Downloads": {
         "prefix": "badges-dld",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
@@ -44,7 +44,7 @@
         ],
         "description": "VSBadges Downloads"
       },
-      "Downloads Short": {
+      "VSBadges Downloads Short": {
         "prefix": "badges-dld-s",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
@@ -53,7 +53,7 @@
         ],
         "description": "VSBadges Downloads Short"
       },
-      "Rating": {
+      "VSBadges Rating": {
         "prefix": "badges-rate",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
@@ -62,7 +62,7 @@
         ],
         "description": "VSBadges Rating"
       },
-      "Rating Short": {
+      "VSBadges Rating Short": {
         "prefix": "badges-rate-s",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
@@ -71,7 +71,7 @@
         ],
         "description": "VSBadges Rating Short"
       },
-      "Rating Star": {
+      "VSBadges Rating Star": {
         "prefix": "badges-rate-st",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
@@ -80,7 +80,7 @@
         ],
         "description": "VSBadges Rating Star"
       },
-      "TrendingDaily": {
+      "VSBadges TrendingDaily": {
         "prefix": "badges-trd",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
@@ -89,7 +89,7 @@
         ],
         "description": "VSBadges TrendingDaily"
       },
-      "TrendingWeekly": {
+      "VSBadges TrendingWeekly": {
         "prefix": "badges-trw",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
@@ -98,8 +98,8 @@
         ],
         "description": "VSBadges TrendingWeekly"
       },
-      "TrendingMonthly": {
-        "prefix": "badges-trd",
+      "VSBadges TrendingMonthly": {
+        "prefix": "badges-trm",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
             "   <img src=\"https://vsmarketplacebadges.dev/trending-monthly/${1:publishername.extensionname}.svg\" alt=\"TrendingMonthly\">",
