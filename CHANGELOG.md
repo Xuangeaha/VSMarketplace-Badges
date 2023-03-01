@@ -6,7 +6,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## 0.0.3 2023-03-01
 
-Optimize `README.md`.
+Add language support information to `README.md`.
+
+Redesign the `icon`.
 
 ## 0.0.2 2023-02-28
 
