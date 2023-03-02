@@ -4,6 +4,10 @@ All notable changes to the "vsmarketplace-badges" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.4 2023-03-02
+
+Redesign the `icon`.
+
 ## 0.0.3 2023-03-01
 
 Add language support information to `README.md`.
