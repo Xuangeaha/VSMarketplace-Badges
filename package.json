@@ -3,7 +3,7 @@
   "publisher": "XuangeAha",
   "displayName": "VSMarketplace Badges",
   "description": "Insert version, installs and rating badges for VSMarketplace extensions easily to your HTML pages.",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "license": "MIT",
   "icon": "logo.png",
   "author": {
@@ -42,6 +42,8 @@
   "keywords": [
     "badge",
     "badges",
+    "icon",
+    "ico",
     "git",
     "Git",
     "productivity",
@@ -125,6 +127,10 @@
       {
         "language": "html",
         "path": "./snippets/html.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/markdown.json"
       }
     ]
   }
