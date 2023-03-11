@@ -4,6 +4,12 @@ All notable changes to the "vsmarketplace-badges" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.2.0 2023-03-11
+
+Redesign the `icon`.
+
+Update the `keywords`.
+
 ## 0.1.0 2023-03-04
 
 Add VSMarketplace Badges code snippets support for `Markdown`.
