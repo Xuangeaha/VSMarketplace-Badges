@@ -8,7 +8,6 @@ Insert version, installs and rating badges for VSMarketplace extensions easily t
 
 将VSMarketplace扩展的版本、安装量和评分等徽章轻松插入到您的HTML页面或Markdown文件。
 
-
 **Homepage/主页**: [`https://xuangeaha.github.io/`](https://xuangeaha.github.io/)
 
 **Repository/仓库**: [`https://github.com/Xuangeaha/VSMarketplace-Badges`](https://github.com/Xuangeaha/VSMarketplace-Badges)
@@ -21,7 +20,7 @@ Insert version, installs and rating badges for VSMarketplace extensions easily t
 
 **Download/下载**: [`https://marketplace.visualstudio.com/items?itemName=XuangeAha.vsmarketplace-badges`](https://marketplace.visualstudio.com/items?itemName=XuangeAha.vsmarketplace-badges)
 
-**Copyright (c) 2023 XuangeAha/轩哥啊哈OvO**
+**Copyright (c) 2023 XuangeAha(轩哥啊哈OvO)**
 
 # How To Use 使用方法
 
