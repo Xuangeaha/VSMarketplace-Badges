@@ -3,7 +3,7 @@
   "publisher": "XuangeAha",
   "displayName": "VSMarketplace Badges",
   "description": "Insert version, installs and rating badges for VSMarketplace extensions easily to your HTML pages.",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "license": "MIT",
   "icon": "logo.png",
   "author": {

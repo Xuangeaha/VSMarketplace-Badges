@@ -4,6 +4,10 @@ All notable changes to the "vsmarketplace-badges" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.3.0 2023-03-18
+
+Change the prefix from `badges-` to `badge-`.
+
 ## 0.2.1 2023-03-12
 
 Redesign the `icon`.
