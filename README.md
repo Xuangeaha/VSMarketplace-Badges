@@ -4,9 +4,9 @@
 
 [![TrendingDaily](https://vsmarketplacebadges.dev/trending-daily/xuangeaha.vsmarketplace-badges.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.vsmarketplace-badges) [![TrendingWeekly](https://vsmarketplacebadges.dev/trending-weekly/xuangeaha.vsmarketplace-badges.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.vsmarketplace-badges) [![TrendingMonthly](https://vsmarketplacebadges.dev/trending-monthly/xuangeaha.vsmarketplace-badges.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.vsmarketplace-badges)
 
-Insert version, installs and rating badges for VSMarketplace extensions easily to your HTML pages or Markdown files.
+Insert version, installs and rating badges for VSMarketplace extensions easily to your HTML or Markdown pages.
 
-将VSMarketplace扩展的版本、安装量和评分等徽章轻松插入到您的HTML页面或Markdown文件。
+将VSMarketplace扩展的版本、安装量和评分等徽章轻松插入到您的HTML或Markdown页面。
 
 **Homepage/主页**: [`https://xuangeaha.github.io/`](https://xuangeaha.github.io/)
 
