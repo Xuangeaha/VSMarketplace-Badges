@@ -4,6 +4,10 @@ All notable changes to the "vsmarketplace-badges" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.4.0 2023-03-05
+
+Add `description` for snippets.
+
 ## 0.3.1 2023-03-25
 
 Update `description`.

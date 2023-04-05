@@ -3,108 +3,108 @@
         "prefix": "badge-ver",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
-            "   <img src=\"https://vsmarketplacebadges.dev/version/${1:publishername.extensionname}.svg\" alt=\"Version\">",
+            "\t<img src=\"https://vsmarketplacebadges.dev/version/${1:publishername.extensionname}.svg\" alt=\"Version\">",
             "</a>"
         ],
-        "description": "VSBadges Version"
-      },
-      "VSBadges Version Short": {
+        "description": "Show version information of the extension."
+    },
+    "VSBadges Version Short": {
         "prefix": "badge-ver-s",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
-            "   <img src=\"https://vsmarketplacebadges.dev/version-short/${1:publishername.extensionname}.svg\" alt=\"Version Short\">",
+            "\t<img src=\"https://vsmarketplacebadges.dev/version-short/${1:publishername.extensionname}.svg\" alt=\"Version Short\">",
             "</a>"
         ],
-        "description": "VSBadges Version Short"
-      },
-      "VSBadges Installs": {
+        "description": "Show version information of the extension in short."
+    },
+    "VSBadges Installs": {
         "prefix": "badge-instl",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
-            "   <img src=\"https://vsmarketplacebadges.dev/installs/${1:publishername.extensionname}.svg\" alt=\"Installs\">",
+            "\t<img src=\"https://vsmarketplacebadges.dev/installs/${1:publishername.extensionname}.svg\" alt=\"Installs\">",
             "</a>"
         ],
-        "description": "VSBadges Installs"
-      },
-      "VSBadges Installs Short": {
+        "description": "Show install count of the extension."
+    },
+    "VSBadges Installs Short": {
         "prefix": "badge-instl-s",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
-            "   <img src=\"https://vsmarketplacebadges.dev/installs-short/${1:publishername.extensionname}.svg\" alt=\"Installs Short\">",
+            "\t<img src=\"https://vsmarketplacebadges.dev/installs-short/${1:publishername.extensionname}.svg\" alt=\"Installs Short\">",
             "</a>"
         ],
-        "description": "VSBadges Installs Short"
-      },
-      "VSBadges Downloads": {
+        "description": "Show install count of the extension in short."
+    },
+    "VSBadges Downloads": {
         "prefix": "badge-dld",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
-            "   <img src=\"https://vsmarketplacebadges.dev/downloads/${1:publishername.extensionname}.svg\" alt=\"Downloads\">",
+            "\t<img src=\"https://vsmarketplacebadges.dev/downloads/${1:publishername.extensionname}.svg\" alt=\"Downloads\">",
             "</a>"
         ],
-        "description": "VSBadges Downloads"
-      },
-      "VSBadges Downloads Short": {
+        "description": "Show download count of the extension."
+    },
+    "VSBadges Downloads Short": {
         "prefix": "badge-dld-s",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
-            "   <img src=\"https://vsmarketplacebadges.dev/downloads-short/${1:publishername.extensionname}.svg\" alt=\"Downloads Short\">",
+            "\t<img src=\"https://vsmarketplacebadges.dev/downloads-short/${1:publishername.extensionname}.svg\" alt=\"Downloads Short\">",
             "</a>"
         ],
-        "description": "VSBadges Downloads Short"
-      },
-      "VSBadges Rating": {
+        "description": "Show download count of the extension in short."
+    },
+    "VSBadges Rating": {
         "prefix": "badge-rate",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
-            "   <img src=\"https://vsmarketplacebadges.dev/rating/${1:publishername.extensionname}.svg\" alt=\"Rating\">",
+            "\t<img src=\"https://vsmarketplacebadges.dev/rating/${1:publishername.extensionname}.svg\" alt=\"Rating\">",
             "</a>"
         ],
-        "description": "VSBadges Rating"
-      },
-      "VSBadges Rating Short": {
+        "description": "Show rating of the extension."
+    },
+    "VSBadges Rating Short": {
         "prefix": "badge-rate-s",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
-            "   <img src=\"https://vsmarketplacebadges.dev/rating-short/${1:publishername.extensionname}.svg\" alt=\"Rating Short\">",
+            "\t<img src=\"https://vsmarketplacebadges.dev/rating-short/${1:publishername.extensionname}.svg\" alt=\"Rating Short\">",
             "</a>"
         ],
-        "description": "VSBadges Rating Short"
-      },
-      "VSBadges Rating Star": {
+        "description": "Show rating of the extension in short."
+    },
+    "VSBadges Rating Star": {
         "prefix": "badge-rate-st",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
-            "   <img src=\"https://vsmarketplacebadges.dev/rating-star/${1:publishername.extensionname}.svg\" alt=\"Rating Star\">",
+            "\t<img src=\"https://vsmarketplacebadges.dev/rating-star/${1:publishername.extensionname}.svg\" alt=\"Rating Star\">",
             "</a>"
         ],
-        "description": "VSBadges Rating Star"
-      },
-      "VSBadges TrendingDaily": {
+        "description": "Show rating of the extension in stars."
+    },
+    "VSBadges TrendingDaily": {
         "prefix": "badge-trd",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
-            "   <img src=\"https://vsmarketplacebadges.dev/trending-daily/${1:publishername.extensionname}.svg\" alt=\"TrendingDaily\">",
+            "\t<img src=\"https://vsmarketplacebadges.dev/trending-daily/${1:publishername.extensionname}.svg\" alt=\"TrendingDaily\">",
             "</a>"
         ],
-        "description": "VSBadges TrendingDaily"
-      },
-      "VSBadges TrendingWeekly": {
+        "description": "Show daily trending number of the extension."
+    },
+    "VSBadges TrendingWeekly": {
         "prefix": "badge-trw",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
-            "   <img src=\"https://vsmarketplacebadges.dev/trending-weekly/${1:publishername.extensionname}.svg\" alt=\"TrendingWeekly\">",
+            "\t<img src=\"https://vsmarketplacebadges.dev/trending-weekly/${1:publishername.extensionname}.svg\" alt=\"TrendingWeekly\">",
             "</a>"
         ],
-        "description": "VSBadges TrendingWeekly"
-      },
-      "VSBadges TrendingMonthly": {
+        "description": "Show weekly trending number of the extension."
+    },
+    "VSBadges TrendingMonthly": {
         "prefix": "badge-trm",
         "body": [
             "<a href=\"https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname}\">",
-            "   <img src=\"https://vsmarketplacebadges.dev/trending-monthly/${1:publishername.extensionname}.svg\" alt=\"TrendingMonthly\">",
+            "\t<img src=\"https://vsmarketplacebadges.dev/trending-monthly/${1:publishername.extensionname}.svg\" alt=\"TrendingMonthly\">",
             "</a>"
         ],
-        "description": "VSBadges TrendingMonthly"
-      }
+        "description": "Show monthly trending number of the extension."
+    }
 }
