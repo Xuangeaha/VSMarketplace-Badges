@@ -219,6 +219,21 @@
     "program",
     "programming"
   ],
+  "main": "./src/extension",
+  "activationEvents": [
+    "onCommand:vsmarketplace-badges.",
+		"onCommand:vsmarketplace-badges.",
+    "onCommand:vsmarketplace-badges.",
+		"onCommand:vsmarketplace-badges.",
+    "onCommand:vsmarketplace-badges.",
+		"onCommand:vsmarketplace-badges.",
+    "onCommand:vsmarketplace-badges.",
+		"onCommand:vsmarketplace-badges.",
+    "onCommand:vsmarketplace-badges.",
+		"onCommand:vsmarketplace-badges.",
+    "onCommand:vsmarketplace-badges.",
+		"onCommand:vsmarketplace-badges."
+	],
   "contributes": {
     "snippets": [
       {
@@ -229,6 +244,116 @@
         "language": "markdown",
         "path": "./snippets/markdown.json"
       }
-    ]
+    ],
+    "commands": [
+      {
+        "command": "vsmarketplace-badges.ver",
+        "title": "Add Badge for Version"
+      },
+      {
+        "command": "vsmarketplace-badges.ver-s",
+        "title": "Add Badge for Version (Short)"
+      },
+      {
+        "command": "vsmarketplace-badges.instl",
+        "title": "Add Badge for Install Count"
+      },
+      {
+        "command": "vsmarketplace-badges.instl-s",
+        "title": "Add Badge for Install Count (Short)"
+      },
+      {
+        "command": "vsmarketplace-badges.dld",
+        "title": "Add Badge for Download Count"
+      },
+      {
+        "command": "vsmarketplace-badges.dld-s",
+        "title": "Add Badge for Download Count (Short)"
+      },
+      {
+        "command": "vsmarketplace-badges.rate",
+        "title": "Add Badge for Rating"
+      },
+      {
+        "command": "vsmarketplace-badges.rate-s",
+        "title": "Add Badge for Rating (Short)"
+      },
+      {
+        "command": "vsmarketplace-badges.rate-st",
+        "title": "Add Badge for Rating Stars"
+      },
+      {
+        "command": "vsmarketplace-badges.trd",
+        "title": "Add Badge for Daily Trending"
+      },
+      {
+        "command": "vsmarketplace-badges.trw",
+        "title": "Add Badge for Weekly Trending"
+      },
+      {
+        "command": "vsmarketplace-badges.trm",
+        "title": "Add Badge for Monthly Trending"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "vsmarketplace-badges.showSubMenu",
+          "group": "2_main",
+          "title": "Add VSmarketplace Badge",
+          "when": "editorTextFocus",
+          "submenu": [
+            {
+              "command": "vsmarketplace-badges.ver",
+              "title": "Add Badge for Version"
+            },
+            {
+              "command": "vsmarketplace-badges.ver-s",
+              "title": "Add Badge for Version (Short)"
+            },
+            {
+              "command": "vsmarketplace-badges.instl",
+              "title": "Add Badge for Install Count"
+            },
+            {
+              "command": "vsmarketplace-badges.instl-s",
+              "title": "Add Badge for Install Count (Short)"
+            },
+            {
+              "command": "vsmarketplace-badges.dld",
+              "title": "Add Badge for Download Count"
+            },
+            {
+              "command": "vsmarketplace-badges.dld-s",
+              "title": "Add Badge for Download Count (Short)"
+            },
+            {
+              "command": "vsmarketplace-badges.rate",
+              "title": "Add Badge for Rating"
+            },
+            {
+              "command": "vsmarketplace-badges.rate-s",
+              "title": "Add Badge for Rating (Short)"
+            },
+            {
+              "command": "vsmarketplace-badges.rate-st",
+              "title": "Add Badge for Rating Stars"
+            },
+            {
+              "command": "vsmarketplace-badges.trd",
+              "title": "Add Badge for Daily Trending"
+            },
+            {
+              "command": "vsmarketplace-badges.trw",
+              "title": "Add Badge for Weekly Trending"
+            },
+            {
+              "command": "vsmarketplace-badges.trm",
+              "title": "Add Badge for Monthly Trending"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
