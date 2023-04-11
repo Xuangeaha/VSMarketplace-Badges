@@ -65,7 +65,7 @@
     "VSBadges TrendingDaily": {
         "prefix": "badge-trd",
         "body": [
-            "[![TrendingDaily](ttps://vsmarketplacebadges.dev/trending-daily/${1:publishername.extensionname}.svg)](https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname})"
+            "[![TrendingDaily](https://vsmarketplacebadges.dev/trending-daily/${1:publishername.extensionname}.svg)](https://marketplace.visualstudio.com/items?itemName=${1:publishername.extensionname})"
         ],
         "description": "Show daily trending number of the extension."
     },
