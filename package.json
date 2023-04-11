@@ -3,7 +3,7 @@
   "publisher": "XuangeAha",
   "displayName": "VSMarketplace Badges",
   "description": "Insert version, installs and rating badges for VSMarketplace extensions easily to your HTML or Markdown pages.",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "license": "MIT",
   "icon": "logo.png",
   "author": {
@@ -221,6 +221,7 @@
   ],
   "main": "./src/extension",
   "activationEvents": [
+    "onCommand:vsmarketplace-badges.showSubMenu",
     "onCommand:vsmarketplace-badges.ver",
 		"onCommand:vsmarketplace-badges.ver-s",
     "onCommand:vsmarketplace-badges.instl",
@@ -238,14 +239,20 @@
     "snippets": [
       {
         "language": "html",
-        "path": "./snippets/html.json"
+        "path": "./snippets/html.json",
+        "when": "editorTextFocus"
       },
       {
         "language": "markdown",
-        "path": "./snippets/markdown.json"
+        "path": "./snippets/markdown.json",
+        "when": "editorTextFocus"
       }
     ],
     "commands": [
+      {
+        "command": "vsmarketplace-badges.showSubMenu",
+        "title": "Show SubMenu of VSMarketplace Badges"
+      },
       {
         "command": "vsmarketplace-badges.ver",
         "title": "Add Badge for Version"
@@ -300,7 +307,7 @@
         {
           "command": "vsmarketplace-badges.showSubMenu",
           "group": "2_main",
-          "title": "Add VSmarketplace Badges",
+          "title": "Add VSMarketplace Badges",
           "when": "editorTextFocus",
           "submenu": [
             {

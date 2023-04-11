@@ -1,6 +1,22 @@
 const vscode = require('vscode');
 
 function activate(context) {
+    // 显示菜单
+    const commandShowSubMenu = vscode.commands.registerCommand('vsmarketplace-badges.showSubMenu', () => {
+        // 获取当前编辑器上下文
+        const editor = vscode.window.activeTextEditor;
+        if (!editor) {
+            vscode.window.showErrorMessage('No active editor found');
+            return;
+        }
+        
+        // 展开右拉下一级菜单
+        vscode.commands.executeCommand('editor.action.showContextMenu', {
+            x: editor.visibleRanges[0].end.character,
+            y: editor.visibleRanges[0].end.line
+        });
+    });
+    
     // 注册菜单项
     const commandVer = vscode.commands.registerCommand('vsmarketplace-badges.ver', () => {
         // 获取当前编辑器

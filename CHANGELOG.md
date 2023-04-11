@@ -4,7 +4,11 @@ All notable changes to the "vsmarketplace-badges" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## 0.4.0 2023-03-05
+## 1.0.0 2023-04-11
+
+Add context menu button to add VSMarketplace Badges.
+
+## 0.4.0 2023-04-05
 
 Add `description` for snippets.
 
