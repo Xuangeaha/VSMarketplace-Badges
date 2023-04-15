@@ -11,9 +11,14 @@ function activate(context) {
         }
 
         // 获取代码片段
-        const snippet = new vscode.SnippetString(`<a href=\"https://marketplace.visualstudio.com/items?itemName=\${2:publishername.extensionname}\">
+        var snippet;
+
+        if (vscode.window.activeTextEditor.document.languageId == 'markdown') {
+            snippet = new vscode.SnippetString("[![${1:badge_title}](https://vsmarketplacebadges.dev/${1:badge_title}/${2:publishername.extensionname}.svg)](https://marketplace.visualstudio.com/items?itemName=${2:publishername.extensionname})")
+        } else {
+            snippet = new vscode.SnippetString(`<a href=\"https://marketplace.visualstudio.com/items?itemName=\${2:publishername.extensionname}\">
 \t<img src=\"https://vsmarketplacebadges.dev/\${1:badge_title}/\${2:publishername.extensionname}.svg\" alt=\"\${1:badge_title}\">
-</a>`);
+</a>`);}
 
         // 插入代码片段
         editor.insertSnippet(snippet);
