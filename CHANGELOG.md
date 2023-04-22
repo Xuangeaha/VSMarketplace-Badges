@@ -4,6 +4,10 @@ All notable changes to the "vsmarketplace-badges" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.0.1 2023-04-22
+
+Add `galleryBanner` to the vsmarketplace page.
+
 ## 1.0.0 2023-04-11
 
 Add context menu button to add VSMarketplace Badges.
