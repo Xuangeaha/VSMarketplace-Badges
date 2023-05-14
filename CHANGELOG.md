@@ -4,6 +4,10 @@ All notable changes to the "vsmarketplace-badges" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.0.2 2023-04-22
+
+Update `gallaryBanner`.
+
 ## 1.0.1 2023-04-22
 
 Add `galleryBanner` to the vsmarketplace page.

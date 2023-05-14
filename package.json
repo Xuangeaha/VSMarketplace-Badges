@@ -3,7 +3,7 @@
   "publisher": "XuangeAha",
   "displayName": "VSMarketplace Badges",
   "description": "Insert version, installs and rating badges for VSMarketplace extensions easily to your HTML or Markdown pages.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "icon": "logo.png",
   "author": {
@@ -18,7 +18,7 @@
     "url": "https://github.com/Xuangeaha/VSMarketplace-Badges/issues"
   },
   "galleryBanner": {
-      "color": "#64c9ec",
+      "color": "#008cd3",
       "theme": "dark"
   },
   "engines": {
